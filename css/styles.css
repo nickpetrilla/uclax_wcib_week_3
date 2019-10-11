@@ -1,17 +1,38 @@
 body {
   font-family: sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("../images/finwavebg.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("../images/finwavebg.jpg");
+  background-attachment: fixed; }
   body img {
-    width: 100%; }
+    width: 500px;
+    display: block; }
   body header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.5)), url("../images/ding_header_image.jpg");
     background-size: contain;
     margin: 2%;
-    height: 300px; }
+    padding: 15px;
+    height: 350px; }
   body header h1 {
-    background: white 50%;
+    background: white;
+    width: 75%;
     font-size: 6em;
     text-transform: uppercase;
     margin-top: 5px; }
   body header h2 {
-    background: white 50%; }
+    background: white 50%;
+    width: 50%; }
+  body main {
+    background: white;
+    margin: 2%;
+    padding: 5%; }
+  body main p {
+    margin-right: 60%; }
+  body #toolssupplies img {
+    float: right; }
+  body #step1 img {
+    width: 500px;
+    float: right; }
+  body #step1 p {
+    display: flex; }
+  body ul {
+    margin-top: 10px;
+    display: inline-block; }
