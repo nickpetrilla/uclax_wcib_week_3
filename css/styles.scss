@@ -7,12 +7,16 @@ body {
 		width: 500px;
 		display: block;
 	}
+
+
+
 	header{
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 255, 255, 0.5)), url("../images/ding_header_image.jpg") ;
 		background-size: contain;
 		margin: 2%;
 		padding: 15px;
-		height: 350px;
+		height: 35%;
+		display: block;
 	}
 
 
@@ -39,20 +43,32 @@ body {
 		margin-right: 60%
 
 	}
+
+	#toolssupplies{
+
+	min-height: 350px;
+	overflow: hidden;
+	}
+
 	#toolssupplies img{
 		float: right;
 	}
 
-
-	#step1 img{
-		width: 500px;
+	.steps {
+		min-height: 350px;
+		overflow: hidden;
+	}
+	.steps img{
 		float: right;
-	}
-	#step1 p{
-	 display: flex;
+		margin-left: 25px;
+		margin-bottom: 25px;
 	}
 
-
+	.steps p{
+ 	 	display:inherit;
+		margin: 10px;
+		max-width: 800px;
+	}
 
 	ul {
 		margin-top: 10px;

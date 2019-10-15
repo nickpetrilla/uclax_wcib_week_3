@@ -10,7 +10,8 @@ body {
     background-size: contain;
     margin: 2%;
     padding: 15px;
-    height: 350px; }
+    height: 35%;
+    display: block; }
   body header h1 {
     background: white;
     width: 75%;
@@ -26,13 +27,22 @@ body {
     padding: 5%; }
   body main p {
     margin-right: 60%; }
+  body #toolssupplies {
+    min-height: 350px;
+    overflow: hidden; }
   body #toolssupplies img {
     float: right; }
-  body #step1 img {
-    width: 500px;
-    float: right; }
-  body #step1 p {
-    display: flex; }
+  body .steps {
+    min-height: 350px;
+    overflow: hidden; }
+  body .steps img {
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 25px; }
+  body .steps p {
+    display: inherit;
+    margin: 10px;
+    max-width: 800px; }
   body ul {
     margin-top: 10px;
     display: inline-block; }
